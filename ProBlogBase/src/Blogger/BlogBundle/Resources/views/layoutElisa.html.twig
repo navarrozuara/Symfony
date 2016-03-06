@@ -1,0 +1,6 @@
+{# src/Blogger/BlogBundle/Resources/views/layout.html.twig #}
+{% extends '::baseElisa.html.twig' %}
+
+{% block sidebar %}
+    {{ render(controller("BloggerBlogBundle:Page:sidebar")) }}
+{% endblock %}
